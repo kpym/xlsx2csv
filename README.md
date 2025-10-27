@@ -6,7 +6,7 @@ The code of this tool is heavily based on [tealeg/xlsx](https://github.com/teale
 ## Usage
 ```
 > xlsx2csv -h
-xlsx2csv (version: 0.1.2) convert the given xlsx file to a csv.
+xlsx2csv (version: 0.1.3) convert the given xlsx file to a csv.
 
 Usage:
         xlsx2csv [flags] <xlsx-to-be-read>
