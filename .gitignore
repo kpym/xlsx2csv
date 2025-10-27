@@ -1,3 +1,5 @@
 *.swp
 *~*
 xlsx2csv
+*.sh
+test*.csv
