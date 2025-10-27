@@ -1,4 +1,4 @@
-module github.com/tealeg/xlsx2csv
+module github.com/kpym/xlsx2csv
 
 go 1.14
 

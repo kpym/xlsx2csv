@@ -119,9 +119,7 @@ func main() {
 		exe := filepath.Base(os.Args[0])
 		// strip .exe extension (if on Windows)
 		exe = strings.TrimSuffix(exe, ".exe")
-		fmt.Fprintf(os.Stderr, `%s (version: %s)
-	dumps the given xlsx file's chosen sheet as a CSV,
-	with the specified delimiter, into the specified output.
+		fmt.Fprintf(os.Stderr, `%s (version: %s) convert the given xlsx file to a csv.
 
 Usage:
 	%s [flags] <xlsx-to-be-read>
