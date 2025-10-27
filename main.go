@@ -127,7 +127,7 @@ Usage:
 		flag.PrintDefaults()
 		fmt.Fprintf(os.Stderr, `
 Defaults :
-- If -i is not given or negative or is negative, all sheets are converted.
+- If -i is not given or is negative, all sheets are converted.
 - If -o is not given, output filename is derived from input filename by replacing .xlsx with .csv
 - If -o is "stdout", output is written to standard output
 - If multiple sheets are converted, the sheet index is appended to the output filename.
