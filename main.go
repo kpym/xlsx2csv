@@ -144,7 +144,7 @@ Examples:
 > %s -i 1 -o output.csv -d ';' input.xlsx
 - Convert the first sheet to stdout:
 > %s -o stdout input.xlsx
-`, exe, exe)
+`, exe, exe, exe)
 	}
 
 	flag.Parse()
